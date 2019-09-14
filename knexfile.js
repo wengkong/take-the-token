@@ -8,7 +8,8 @@ module.exports = {
       host : process.env.DEV_DB_HOST,
       user : process.env.DEV_DB_USER,
       password : process.env.DEV_DB_PASSWORD,
-      database : process.env.DEV_DB_NAME
+      database : process.env.DEV_DB_NAME,
+      timezone: 'UTC'
       //filename: './dev.mysql'
     },
     migrations: {
